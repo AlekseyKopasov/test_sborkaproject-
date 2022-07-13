@@ -4,9 +4,7 @@
 {% from "../../components/button/button.nunj" import button %}
 {% from "../../components/icon/icon.nunj" import icon %}
 
-{# Пример расширения существующего блока #}
-{# Например можно использовать для добавления уникальных тайтлов для каждой страницы #}
-{# {% block title %}Home / {{ super() }}{% endblock title %} #}
+{% block title %}Ordering{% endblock title %}
 
 {% block content %}
 
@@ -20,7 +18,6 @@
 				children: 'Buy something',
 				chevronRight: true
 			}) }}
-			<a href="ordering-billing.html">ordering-billing.html</a>
 		</div>
 
 		<div style="padding:20px 0;">
@@ -60,12 +57,12 @@
 
 		<div style="padding:20px 0;">
 
-			<h2 style="margin-bottom: 15px;">Пример использования SVG-спрайта</h2>
+			<h2 style="margin-bottom: 15px;">Пример использования SVG-спрайта $</h2>
 
 			{{ icon({
-				iconName: 'chat',
+				iconName: 'basket',
 				className: 'icon',
-				attributes: 'viewBox="0 0 20 20" style="width: 40px; height: 40px; fill: #212121;"'
+				attributes: 'fill: #472b2b'
 			}) }}
 
 		</div>
