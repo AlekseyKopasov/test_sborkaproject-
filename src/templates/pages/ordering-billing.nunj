@@ -1,5 +1,6 @@
 {% extends "../ext/base.nunj" %}
 
+{% from "../../components/logo/logo.nunj" import logo %}
 {% from "../../components/menu/menu.nunj" import menu %}
 {% from "../../components/button/button.nunj" import button %}
 {% from "../../components/icon/icon.nunj" import icon %}

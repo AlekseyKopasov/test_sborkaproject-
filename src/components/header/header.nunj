@@ -1,5 +1,7 @@
 <div class="header">
 	<div class="container">
+		{{ logo('logo', 'icon', 'viewBox="0 0 89 32"') }}
 		{{ menu() }}
+		user actions
 	</div>
 </div>
